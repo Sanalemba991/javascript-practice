@@ -10,12 +10,11 @@ for (var i = 0; i < n; i++) {
 }*/
 function printPyramid(rows) {
   for (let i = 1; i <= rows; i++) {
-      let space = ' '.repeat(rows - i); // Spaces before the stars
-      let stars = '*'.repeat(2 * i - 1); // Stars for the pyramid row
-      console.log(space + stars); // Print the row
+    let space = " ".repeat(rows - i); // Spaces before the stars
+    let stars = "*".repeat(2 * i - 1); // Stars for the pyramid row
+    console.log(space + stars); // Print the row
   }
 }
 
 // Call the function with the desired number of rows
-printPyramid(5);  // You can change this number to print a bigger or smaller pyramid
-
+printPyramid(5); // You can change this number to print a bigger or smaller pyramid
