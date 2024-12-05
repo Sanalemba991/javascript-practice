@@ -69,7 +69,7 @@ function Ram (a, b) {
 
 console.log(Ram(3, 4));  // Output the result
 */
-/*
+
 const Ram = (a, b) => {
   let c = a + b;  // Calculate the sum
   return { sum: c };  // Return an object with a key 'sum'
