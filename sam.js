@@ -38,4 +38,25 @@ for (let i = 1; i <= 10; i++) {
 
 console.log(sum);*/
 
+/*
+let a = 30;
+let b = 40;
 
+switch (true) {
+  case (a > b):
+    console.log("a is greater than b");
+    break;
+  case (a < b):
+    console.log("a is less than b");
+    break;
+  case (a === b):
+    console.log("a is equal to b");
+    break;
+  default:
+    console.log("Unknown condition");
+}*/
+/*
+array style multiflying
+const numbers = [1, 2, 3, 4, 5, 6,]
+const doubleNumbers = numbers.map((num) => num * 2);
+console.log(doubleNumbers);*/
