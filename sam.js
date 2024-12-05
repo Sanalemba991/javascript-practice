@@ -60,3 +60,19 @@ array style multiflying
 const numbers = [1, 2, 3, 4, 5, 6,]
 const doubleNumbers = numbers.map((num) => num * 2);
 console.log(doubleNumbers);*/
+
+/*normal function
+function Ram (a, b) {
+  let c = a + b;  // Calculate the sum
+  return { sum: c };  // Return an object with a key 'sum'
+}
+
+console.log(Ram(3, 4));  // Output the result
+*/
+/*
+const Ram = (a, b) => {
+  let c = a + b;  // Calculate the sum
+  return { sum: c };  // Return an object with a key 'sum'
+};
+
+console.log(Ram(3, 4));  // Output the result */
