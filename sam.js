@@ -7,7 +7,7 @@ for (var i = 0; i < n; i++) {
   var next = a + b;  // Calculate the next Fibonacci number
   a = b;  // Update 'a' to the previous Fibonacci number
   b = next;  // Update 'b' to the next Fibonacci number
-}*/
+
 function printPyramid(rows) {
   for (let i = 1; i <= rows; i++) {
     let space = " ".repeat(rows - i); // Spaces before the stars
@@ -18,3 +18,24 @@ function printPyramid(rows) {
 
 // Call the function with the desired number of rows
 printPyramid(5); // You can change this number to print a bigger or smaller pyramid
+
+let a = 1;
+let b = 3;
+
+for (let i = 0; i <= 10; i++) {
+  a++;
+ 
+}
+console.log(a);*/
+/*
+this for add 1 to 10 number
+
+let sum = 1;
+
+for (let i = 1; i <= 10; i++) {
+  sum *= i;
+}
+
+console.log(sum);*/
+
+
