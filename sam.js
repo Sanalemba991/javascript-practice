@@ -76,13 +76,13 @@ const Ram = (a, b) => {
 };
 
 console.log(Ram(3, 4));  // Output the result */
-const Ram = (()=>{
+const Ram = (() => {
   let a = 10;
   let b = 20;
-  return{
+  return {
     sum: a + b,
   };
+})();
 
-});
+console.log(Ram.sum); // This will log the sum to the console (30)
 
-co
