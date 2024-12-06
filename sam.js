@@ -78,7 +78,7 @@ const Ram = (a, b) => {
 console.log(Ram(3, 4));  // Output the result */
 
 let a=67;
-let b=90;
+let b=9;
  if(a<b){
   console.log('A is less thanb')
  }
