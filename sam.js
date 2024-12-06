@@ -76,7 +76,7 @@ const Ram = (a, b) => {
 };
 
 console.log(Ram(3, 4));  // Output the result */
-cons Ram = (()=>{
+const Ram = (()=>{
   let a = 10;
   let b = 20;
   return{
