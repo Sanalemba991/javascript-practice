@@ -118,6 +118,8 @@ console.assert(typeof name2 === "string",errMsg);
 console.assert(typeof name3 === "string",errMsg)
 */
 
+/*
+
 const function1=()=>{
   console.log("Hello World");
 }
@@ -129,4 +131,12 @@ const mainFunc=()=>{
   function1()
   function2()
 }
-mainFunc();
+mainFunc();*/
+
+/*
+console.log("Timer");
+
+for(let i=0;i<100000000;i++){
+  console.log("Ram")
+}
+console.timeEnd("Timer")*/
