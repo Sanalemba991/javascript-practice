@@ -102,4 +102,5 @@ const jediArr=[
 
 ]
 console.log(jediArr)
+console.table(jediArr)
 
