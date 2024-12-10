@@ -76,13 +76,22 @@ const Ram = (a, b) => {
 };
 
 console.log(Ram(3, 4));  // Output the result */
-const Ram = (() => {
-  let a = 10;
-  let b = 20;
-  return {
-    sum: a + b,
-  };
-})();
+//const Ram = (() => {
+  //let a = 10;
+  //let b = 20;
+  //return {
+    //sum: a + b,
+  //};
+//})();
 
-console.log(Ram.sum); // This will log the sum to the console (30)
+//console.log(Ram.sum); // This will log the sum to the console (30)
+console.log('Hello World');
 
+setInterval(() => {
+  console.log('bye')
+  
+}, 5000);
+
+const obj=[{name:'sam'}];
+
+console.log(obj)
