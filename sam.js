@@ -95,12 +95,24 @@ setInterval(() => {
 const obj=[{name:'sam'}];
 
 console.log(obj)*/
-const jediArr=[
+/*const jediArr=[
   {name:'Luke',age:25},
   {name:'Leia',age:30},
   {name:'Han',age:35},
 
 ]
 console.log(jediArr)
-console.table(jediArr)
+console.table(jediArr)*/
+
+
+//aserrt
+const name1="Sam";
+const name2="Ram";
+const name3=50
+
+const errMsg="Name has to be string"
+
+console.assert(typeof name1 === "string",errMsg);
+console.assert(typeof name2 === "string",errMsg);
+console.assert(typeof name3 === "string",errMsg)
 
