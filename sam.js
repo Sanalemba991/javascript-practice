@@ -85,7 +85,7 @@ console.log(Ram(3, 4));  // Output the result */
 //})();
 
 //console.log(Ram.sum); // This will log the sum to the console (30)
-console.log('Hello World');
+/* console.log('Hello World');
 
 setInterval(() => {
   console.log('bye')
@@ -94,4 +94,12 @@ setInterval(() => {
 
 const obj=[{name:'sam'}];
 
-console.log(obj)
+console.log(obj)*/
+const jediArr=[
+  {name:'Luke',age:25},
+  {name:'Leia',age:30},
+  {name:'Han',age:35},
+
+]
+console.log(jediArr)
+
