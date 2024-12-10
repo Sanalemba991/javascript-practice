@@ -141,4 +141,5 @@ for(let i=0;i<100000000;i++){
 }
 console.timeEnd("Timer")*/
 //console.error("this is an Soiba")
-console.info("Thi is info")
+//console.info("Thi is info")
+console.warn("warning pibei")
