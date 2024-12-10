@@ -106,6 +106,7 @@ console.table(jediArr)*/
 
 
 //aserrt
+/*
 const name1="Sam";
 const name2="Ram";
 const name3=50
@@ -115,4 +116,17 @@ const errMsg="Name has to be string"
 console.assert(typeof name1 === "string",errMsg);
 console.assert(typeof name2 === "string",errMsg);
 console.assert(typeof name3 === "string",errMsg)
+*/
 
+const function1=()=>{
+  console.log("Hello World");
+}
+const function2=()=>{
+  console.log("Hello2")
+}
+
+const mainFunc=()=>{
+  function1()
+  function2()
+}
+mainFunc();
