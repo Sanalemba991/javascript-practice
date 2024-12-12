@@ -175,12 +175,21 @@ console.timeEnd("Timer")*/
 // }
 // sam('Romeo');
 
-let a = 0;
+// let a = 0;
 
-for (let i = 0; i < 20; i++) {
-  a = i;
-}
+// for (let i = 0; i < 20; i++) {
+//   a = i;
+// }
 
-console.log(i); // This will log 20 because the loop ends when i reaches 20
+// console.log(i); // This will log 20 because the loop ends when i reaches 20
 
 
+var a = 0;
+var b = 1;
+var n = 30; // Number of Fibonacci numbers to generate
+
+for (var i = 0; i < n; i++) {
+  console.log(a);  // Print the current Fibonacci number
+  var next = a + b;  // Calculate the next Fibonacci number
+  a = b;  // Update 'a' to the previous Fibonacci number
+  b = next;}
