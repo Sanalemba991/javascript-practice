@@ -161,19 +161,19 @@ console.timeEnd("Timer")*/
 // console.log( course[property]);
 //  length yengba
 
-// let product=['blue','red'];
+let product=['blue','red'];
 
 
-// product[0]=42;
+product[0]=42;
 
-// console.log(product.length)
+console.log(product.length)
 
-// function sam(ram)
+function sam(ram)
 
-// {
-//   console.log("Hello "+ ram);
-// }
-// sam('Romeo');
+{
+  console.log("Hello "+ ram);
+}
+sam('Romeo');
 
 
 
