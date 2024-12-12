@@ -161,19 +161,26 @@ console.timeEnd("Timer")*/
 // console.log( course[property]);
 //  length yengba
 
-let product=['blue','red'];
+// let product=['blue','red'];
 
 
-product[0]=42;
+// product[0]=42;
 
-console.log(product.length)
+// console.log(product.length)
 
-function sam(ram)
+// function sam(ram)
 
-{
-  console.log("Hello "+ ram);
+// {
+//   console.log("Hello "+ ram);
+// }
+// sam('Romeo');
+
+let a = 0;
+
+for (let i = 0; i < 20; i++) {
+  a = i;
 }
-sam('Romeo');
 
+console.log(i); // This will log 20 because the loop ends when i reaches 20
 
 
