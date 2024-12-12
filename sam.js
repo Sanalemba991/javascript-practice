@@ -182,14 +182,23 @@ console.timeEnd("Timer")*/
 // }
 
 // console.log(i); // This will log 20 because the loop ends when i reaches 20
+// var a = 0;  // First Fibonacci number
+// var b = 1;  // Second Fibonacci number
+// var n = 30; // Total Fibonacci numbers to display
 
+// // Loop to print the Fibonacci sequence
+// for (var i = 0; i < n; i++) {
+//   // Print the current Fibonacci number
+//   var next = a + b;  // Calculate the next Fibonacci number (sum of the previous two numbers)
+//   a = b;  // Move 'a' to the next position (it becomes the previous number)
+//   b = next;  // Move 'b' to the next position (it becomes the next number)
+//   console.log(a);
+// }
+//iteration saum
+let a = 1;
 
-var a = 0;
-var b = 1;
-var n = 30; // Number of Fibonacci numbers to generate
+for (let i = 1; i <= 20; i++) {
+    a += i;  // Multiply a by i in each iteration
+}
 
-for (var i = 0; i < n; i++) {
-  console.log(a);  // Print the current Fibonacci number
-  var next = a + b;  // Calculate the next Fibonacci number
-  a = b;  // Update 'a' to the previous Fibonacci number
-  b = next;}
+console.log(a);
