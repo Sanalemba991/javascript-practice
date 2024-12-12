@@ -145,5 +145,35 @@ console.timeEnd("Timer")*/
 //aconsole.warn("warning pibei")
 
 //type yengbei
-let firstName="ram";
-console.log(typeof firstName);
+
+// let firstName="ram";
+// console.log(typeof firstName);
+
+//object creation
+// let courese={
+//   name:"ram",
+//   age:20,
+// }
+// console.log( courese.name);
+
+// let property='hours';
+
+// console.log( course[property]);
+//  length yengba
+
+// let product=['blue','red'];
+
+
+// product[0]=42;
+
+// console.log(product.length)
+
+// function sam(ram)
+
+// {
+//   console.log("Hello "+ ram);
+// }
+// sam('Romeo');
+
+
+
