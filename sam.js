@@ -143,3 +143,6 @@ console.timeEnd("Timer")*/
 //console.error("this is an Soiba")
 //console.info("Thi is info")
 //aconsole.warn("warning pibei")
+var x;
+x = 5;
+document.getElementById("demo").innerHTML = x * 10;
