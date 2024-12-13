@@ -232,3 +232,9 @@ console.timeEnd("Timer")*/
 // let b=2;
 // const sam=b>=23 ? 'sam':'ram';
 // console.log(sam)
+
+//|| default value
+let a='';
+let b='red';
+const sam=a||b;
+console.log(sam);
