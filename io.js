@@ -93,12 +93,19 @@
 // console.log(a)
 
 //for input using array
-const course={
-    name:'Sanalemba',
-    duration:50,
-    price:90
+// const course={
+//     name:'Sanalemba',
+//     duration:50,
+//     price:90
 
-}
-for(const key in course){
-    console.log(course[key])
+// }
+// for(const key in course){
+//     console.log(course[key])
+// }
+let num=[1,2,3,4]
+// for(let i=0;i<=num.length;i++){
+//     console.log(num[i])
+// }
+for(let element of num){
+console.log(element)
 }
