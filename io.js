@@ -10,11 +10,11 @@
 // }
 
 //&& shijinnnaba gi
-let hour=111;
+// let hour=111;
 
-if(hour>=90 && hour<=100)
- {
-    console.log("VERY GOod")
- }else{
-    console.log("Re enter")
- }
+// if(hour>=90 && hour<=100)
+//  {
+//     console.log("VERY GOod")
+//  }else{
+//     console.log("Re enter")
+//  }
