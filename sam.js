@@ -213,13 +213,17 @@ console.timeEnd("Timer")*/
 // const sam=a>b;
 // console.log(sam);
 
-let a=2;
-let b="2";
+// let a=2;
+// let b="2";
 
-console.log(a==b)//truthy
+// console.log(a==b)//truthy
 
-console.log(a===b)//lose
+// console.log(a===b)//lose
 
-console.log(true== '1')
+// console.log(true== '1')
 
-=== strict ne shina
+// === strict ne shina
+let a = 32;  // Assuming a represents the age
+const canDrive = a >= 16 ? true : false;  // Check if the age is 16 or above
+
+console.log(canDrive);  // This will log true since a is 32
