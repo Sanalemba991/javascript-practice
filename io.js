@@ -67,14 +67,14 @@
 // // }
 // for(let i=0;i<100;i++){
 //     console.log(i)
-// 
-let sum=0;
-while(true){
+// while loop used
+// let sum=0;
+// while(true){
 
-    console.log('loop');
-    sum++
+//     console.log('loop');
+//     sum++
 
 
-if(sum===10)
-    break;
-}
+// if(sum===10)
+//     break;
+// }
