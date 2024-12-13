@@ -207,8 +207,19 @@ console.timeEnd("Timer")*/
 // }
 // console.log(multiply(2, 2));
 
-let a=32;
-let b=99;
+// let a=32;
+// let b=99;
 
-const sam=a>b;
-console.log(sam);
+// const sam=a>b;
+// console.log(sam);
+
+let a=2;
+let b="2";
+
+console.log(a==b)//truthy
+
+console.log(a===b)//lose
+
+console.log(true== '1')
+
+=== strict ne shina
