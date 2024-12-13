@@ -59,3 +59,12 @@
 // number.push(0,32)
 
 // console.log(number)
+
+// let num=[1,2,3,4,5,6,7,8,9]
+
+// // for(let i=0;i<num.length;i++){
+// //     console.log(num[i])
+// // }
+// for(let i=0;i<100;i++){
+//     console.log(i)
+// 
