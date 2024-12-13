@@ -18,14 +18,14 @@
 //  }else{
 //     console.log("Re enter")
 //  
-job="sa"
-switch(job){
-    case "Engineer":
-        console.log("Engineer");
-        break;
-        case "Doctor":
-            console.log("Doctor");
-            break;
-            default:
-            console.log("Invalid job");
-}
+// job="sa"
+// switch(job){
+//     case "Engineer":
+//         console.log("Engineer");
+//         break;
+//         case "Doctor":
+//             console.log("Doctor");
+//             break;
+//             default:
+//             console.log("Invalid job");
+
