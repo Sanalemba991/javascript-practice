@@ -239,7 +239,10 @@ console.timeEnd("Timer")*/
 // const sam=a||b;
 // console.log(sam);
 
- let a=3;
- let b=3+a*90;
- console.log(b);
-
+//  let a=3;
+//  let b=3+a*90;
+//  console.log(b);
+let a=9;
+let b="0";
+const ram=a==b;
+console.log(ram);
