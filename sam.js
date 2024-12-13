@@ -77,11 +77,11 @@ const Ram = (a, b) => {
 
 console.log(Ram(3, 4));  // Output the result */
 //const Ram = (() => {
-  //let a = 10;
-  //let b = 20;
-  //return {
-    //sum: a + b,
-  //};
+//let a = 10;
+//let b = 20;
+//return {
+//sum: a + b,
+//};
 //})();
 
 //console.log(Ram.sum); // This will log the sum to the console (30)
@@ -103,7 +103,6 @@ console.log(obj)*/
 ]
 console.log(jediArr)
 console.table(jediArr)*/
-
 
 //aserrt
 /*
@@ -163,7 +162,6 @@ console.timeEnd("Timer")*/
 
 // let product=['blue','red'];
 
-
 // product[0]=42;
 
 // console.log(product.length)
@@ -195,10 +193,16 @@ console.timeEnd("Timer")*/
 //   console.log(a);
 // }
 //iteration saum
-let a = 1;
+// let a = 1;
 
-for (let i = 1; i <= 20; i++) {
-    a += i;  // Multiply a by i in each iteration
+// for (let i = 1; i <= 20; i++) {
+//     a += i;  // Multiply a by i in each iteration
+// }
+
+// console.log(a);
+function multiply(num1, num2) {
+  const product = num1 + num2;
+
+  return product;
 }
-
-console.log(a);
+console.log(multiply(2, 2));
