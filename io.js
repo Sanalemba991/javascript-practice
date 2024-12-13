@@ -91,11 +91,14 @@
  
 // }
 // console.log(a)
+
+//for input using array
 const course={
     name:'Sanalemba',
     duration:50,
     price:90
 
 }
-console.log(course.name)
-console.log(course['duration'])//string da onba magi data type she
+for(const key in course){
+    console.log(course[key])
+}
