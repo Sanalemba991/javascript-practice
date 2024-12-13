@@ -200,9 +200,15 @@ console.timeEnd("Timer")*/
 // }
 
 // console.log(a);
-function multiply(num1, num2) {
-  var product = num1 + num2;
+// function multiply(num1, num2) {
+//   var product = num1 + num2;
 
-  return product;
-}
-console.log(multiply(2, 2));
+//   return product;
+// }
+// console.log(multiply(2, 2));
+
+let a=32;
+let b=99;
+
+const sam=a>b;
+console.log(sam);
