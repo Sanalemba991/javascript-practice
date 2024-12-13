@@ -223,7 +223,12 @@ console.timeEnd("Timer")*/
 // console.log(true== '1')
 
 // === strict ne shina
-let a = 32;  // Assuming a represents the age
-const canDrive = a >= 16 ? true : false;  // Check if the age is 16 or above
 
-console.log(canDrive);  // This will log true since a is 32
+// ternary operator
+// let a = 32;  // Assuming a represents the age
+// const canDrive = a >= 16 ? true : false;  // Check if the age is 16 or above
+
+// console.log(canDrive);  // This will log true since a is 32
+// let b=2;
+// const sam=b>=23 ? 'sam':'ram';
+// console.log(sam)
