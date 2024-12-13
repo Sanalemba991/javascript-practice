@@ -29,3 +29,15 @@
 //             default:
 //             console.log("Invalid job");
 // Get input values from the user
+// function remove(str) {
+//     return str.replace(/[aeiou]/gi, '');
+// }
+
+// let myName = "Sanalemba";
+// let result = remove(myName);
+// console.log(result);
+
+let ram="SANALEMBA";
+
+const sonia=ram.toLocaleLowerCase();
+console.log(sonia);
