@@ -78,3 +78,9 @@
 // if(sum===10)
 //     break;
 // }
+//do while loop where uses is always
+let i=0;
+do{
+    console.log(i);
+    i++;
+}while(i<10);
