@@ -37,7 +37,25 @@
 // let result = remove(myName);
 // console.log(result);
 
-let ram="SANALEMBA";
+// let ram="SANALEMBA";
 
-const sonia=ram.toLocaleLowerCase();
-console.log(sonia);
+// const sonia=ram.toLocaleLowerCase();
+// console.log(sonia);
+
+// let number=[1,2,3,4,5,6,7,8,9,9,8,45,21];
+
+// // let ArrayLength=number.length;
+// // let idx=0;
+
+// // console.log(number[idx++]);
+
+// for(let idx=0;i<number.length;idx++){
+//     console.log(number[idx]);
+// 
+
+// push and PushSubscriptionOptions
+// let number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 9, 8, 45, 21];
+
+// number.push(0,32)
+
+// console.log(number)
