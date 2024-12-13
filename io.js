@@ -84,10 +84,18 @@
 //     console.log(i);
 //     i++;
 // }while(i<10);
-let a=1;
+// let a=1;
 
-for(let i=1;i<=10;i++){
-    a +=i;
+// for(let i=1;i<=10;i++){
+//     a +=i;
  
+// }
+// console.log(a)
+const course={
+    name:'Sanalemba',
+    duration:50,
+    price:90
+
 }
-console.log(a)
+console.log(course.name)
+console.log(course['duration'])//string da onba magi data type she
