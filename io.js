@@ -79,8 +79,9 @@
 //     break;
 // }
 //do while loop where uses is always
-let i=0;
-do{
-    console.log(i);
-    i++;
-}while(i<10);
+// let i=0;
+// do{
+//     console.log(i);
+//     i++;
+// }while(i<10);
+let a=1;
