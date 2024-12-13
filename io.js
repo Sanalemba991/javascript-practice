@@ -28,4 +28,4 @@
 //             break;
 //             default:
 //             console.log("Invalid job");
-
+// Get input values from the user
