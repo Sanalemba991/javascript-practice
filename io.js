@@ -68,3 +68,13 @@
 // for(let i=0;i<100;i++){
 //     console.log(i)
 // 
+let sum=0;
+while(true){
+
+    console.log('loop');
+    sum++
+
+
+if(sum===10)
+    break;
+}
