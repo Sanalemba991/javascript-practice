@@ -164,7 +164,7 @@
 // console.log(add(2, 9));
 
 
-//array pusp pop spice unshift shift
+//array pusp pop splice unshift shift
 const numbers=[1,2,3,4,5,6,7,89]
 
 const lastElement=numbers.pop();
