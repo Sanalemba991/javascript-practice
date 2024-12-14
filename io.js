@@ -267,12 +267,11 @@
 // console.log(upperCase);
 
 //toLowercase covert 
-const employees = [
-  { id: 1, name: "Ram", email: "RoMio@gmail.com" },
-  { id: 2, name: "Rahul", email: "RaHul@gmail.com" },
-  { id: 3, name: "Tomba", email: "TomThinLaba@gmail.com" },
-];
-const emaiK = employees.map((employee) => ({
-  email: employee.email.toLocaleLowerCase(),
+const employees=[
+    {id:1,name:'Sanathoiba',role:'DEVELOPER'},
+    {id:2,name:'Sanathoihenba',role:'GraPhiC DEsiNgner'},
+]
+const reason=employees.map(emp=>({
+   email:  emp.role.toLowerCase()
 }));
-console.log(emaiK);
+console.log(reason)
