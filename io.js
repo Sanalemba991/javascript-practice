@@ -224,10 +224,19 @@
 // });
 
 //checking even or not all given number
+// const numbers=[
+//     2,,4,,90
+// ];
+// const areAllEven=numbers.every(number =>{
+//     return number%2===0
+// })
+// console.log(`even :${areAllEven}`)
+
+//some check whether is okay or not
 const numbers=[
-    2,,4,,90
+    2,,4,,90,3,6,6,4,3,7
 ];
-const areAllEven=numbers.every(number =>{
+const areAllEven=numbers.some(number =>{
     return number%2===0
 })
 console.log(`even :${areAllEven}`)
