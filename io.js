@@ -233,11 +233,17 @@
 // console.log(`even :${areAllEven}`)
 
 //some check whether is okay or not
-const numbers=[
-    2,,4,,90,3,6,6,4,3,7
-];
-const areAllEven=numbers.some(number =>{
-    return number%2===0
-})
-console.log(`even :${areAllEven}`)
+// const numbers=[
+//     2,,4,,90,3,6,6,4,3,7
+// ];
+// const areAllEven=numbers.some(number =>{
+//     return number%2===0
+// })
+// console.log(`even :${areAllEven}`)
+
+
+//fillter means searching divisible by 2
+const number=[1,2,3,4,5,6];
+const evenNumber=number.filter(number =>number%2 ===0);
+console.log(evenNumber)
 
