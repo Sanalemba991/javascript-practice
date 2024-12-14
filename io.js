@@ -172,9 +172,33 @@ const lastElement=numbers.pop();
 console.log(`lastElement :${lastElement}`)
 console.log (`numbers :${numbers}`)
 
-//concat array
-const San=[1,2,3,4,5];
-const Ram=[3,4,8,9,0];
+// //concat array
+// const San=[1,2,3,4,5];
+// const Ram=[3,4,8,9,0];
 
-const Okay=San.concat(Ram);
-console.log(Okay);
+// const Okay=San.concat(Ram);
+// console.log(Okay);
+
+
+//combine
+// const exampleNumbersA=[1,2,3];
+// const exampleNumbersB=[4,5,6];
+
+
+// let combine=[...exampleNumbersA,...exampleNumbersB];
+// console.log(combine)
+
+
+//num index itterate using arrow function
+const number=[1,2,3,4,5,6,7,89];
+
+number.forEach((num,index)=>{
+    console.log(`Num:${num} Index:${index} `)
+})
+
+
+
+
+
+
+
