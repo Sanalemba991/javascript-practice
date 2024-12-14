@@ -248,10 +248,15 @@
 // console.log(evenNumber);
 
 //filtering means searching similar or not
-const Dat=[
-{id:1,name:'Sanathoiba',role:'Graphic Designer'},
-{id:2,name:'Sanatomba',role:'Developer'},
-{id:3,name:'Jerun',role:'UI AND UX DESIGNER'},
-]
-const designer=Dat.filter(data=>data.role==='Graphic Designer');
-console.log(designer);
+// const Dat=[
+// {id:1,name:'Sanathoiba',role:'Graphic Designer'},
+// {id:2,name:'Sanatomba',role:'Developer'},
+// {id:3,name:'Jerun',role:'UI AND UX DESIGNER'},
+// ]
+// const designer=Dat.filter(data=>data.role==='Graphic Designer');
+// console.log(designer);
+//map uses
+const num=[1,2,3,45,90];
+
+const Rome=num.map(nm=>nm+nm);
+console.log(Rome);
