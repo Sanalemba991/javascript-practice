@@ -164,12 +164,12 @@
 // console.log(add(2, 9));
 
 //array pusp pop splice unshift shift
-const numbers = [1, 2, 3, 4, 5, 6, 7, 89];
+// const numbers = [1, 2, 3, 4, 5, 6, 7, 89];
 
-const lastElement = numbers.pop();
+// const lastElement = numbers.pop();
 
-console.log(`lastElement :${lastElement}`);
-console.log(`numbers :${numbers}`);
+// console.log(`lastElement :${lastElement}`);
+// console.log(`numbers :${numbers}`);
 
 // //concat array
 // const San=[1,2,3,4,5];
@@ -197,19 +197,38 @@ console.log(`numbers :${numbers}`);
 // console.log(numbe)
 
 //sorting
-const courseName = "Javascript for";
-const parts = courseName.split(" ");  // Split by space to get words
-const ram = parts.join("-");  // Join words with hyphen
-console.log(ram);  // Output: "Javascript-for"
+// const courseName = "Javascript for";
+// const parts = courseName.split(" ");  // Split by space to get words
+// const ram = parts.join("-");  // Join words with hyphen
+// console.log(ram);  // Output: "Javascript-for"
 
+// let character=[1,4,6,7,1,2,4,2,3,4,55,90];
+// character.sort();
+// console.log(character);
 
-let character=[1,4,6,7,1,2,4,2,3,4,55,90];
-character.sort();
-console.log(character);
+// let characters=[1,4,6,7,1,2,4,2,3,4,55,90];
+// character.reverse();
+// console.log(character);
 
+// let employees = [
+//   { id: 1, name: "Jen" },
+//   { id: 2, name: "Ram" },
+// ];
+// employees.sort((a, b) => {
+//   const lowercaseA = a.name.toLowerCase();
+//   const lowercaseB = b.name.toLowerCase();
 
-let characters=[1,4,6,7,1,2,4,2,3,4,55,90];
-character.reverse();
-console.log(character);
+//   if (lowercaseA < lowercaseB) return -1;
+//   if (lowercaseA > lowercaseB) return 1;
+//   return 0;
+// });
 
- 
+//checking even or not all given number
+const numbers=[
+    2,,4,,90
+];
+const areAllEven=numbers.every(number =>{
+    return number%2===0
+})
+console.log(`even :${areAllEven}`)
+
