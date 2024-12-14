@@ -247,6 +247,7 @@
 // const evenNumber=number.filter(number =>number%2 ===0);
 // console.log(evenNumber);
 
+//filtering means searching similar or not
 const employees=[
     {id:1, name:'Alice', role:'Developer'},
     {id:2, name:'Bob', role:'Manager'},
