@@ -266,12 +266,18 @@
 // const upperCase=character.map(char=>char.toUpperCase());
 // console.log(upperCase);
 
-//toLowercase covert 
-const employees=[
-    {id:1,name:'Sanathoiba',role:'DEVELOPER'},
-    {id:2,name:'Sanathoihenba',role:'GraPhiC DEsiNgner'},
-]
-const reason=employees.map(emp=>({
-   email:  emp.role.toLowerCase()
-}));
-console.log(reason)
+//toLowercase covert
+const collections = [
+  { id: 1, name: "Sanalemba", role: "Developer" },
+  { id: 2, name: "Sanatomba", role: "Graphic Designer" },
+  {
+    id: 3,
+    name: "Jerun",
+    role: "UI AND UX DESIGNER",
+  },
+];
+
+const collect=collections.map(collec=>({
+    role:collec.role.toLowerCase()
+}))
+console.log(collect)
