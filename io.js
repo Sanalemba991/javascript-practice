@@ -196,7 +196,20 @@ console.log(`numbers :${numbers}`);
 // const numbe=num.join(',');
 // console.log(numbe)
 
+//sorting
 const courseName = "Javascript for";
 const parts = courseName.split(" ");  // Split by space to get words
 const ram = parts.join("-");  // Join words with hyphen
 console.log(ram);  // Output: "Javascript-for"
+
+
+let character=[1,4,6,7,1,2,4,2,3,4,55,90];
+character.sort();
+console.log(character);
+
+
+let characters=[1,4,6,7,1,2,4,2,3,4,55,90];
+character.reverse();
+console.log(character);
+
+ 
