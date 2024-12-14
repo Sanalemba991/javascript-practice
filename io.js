@@ -17,7 +17,7 @@
 //     console.log("VERY GOod")
 //  }else{
 //     console.log("Re enter")
-//  
+//
 // job="sa"
 // switch(job){
 //     case "Engineer":
@@ -51,7 +51,7 @@
 
 // for(let idx=0;i<number.length;idx++){
 //     console.log(number[idx]);
-// 
+//
 
 // push and PushSubscriptionOptions
 // let number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 9, 8, 45, 21];
@@ -74,7 +74,6 @@
 //     console.log('loop');
 //     sum++
 
-
 // if(sum===10)
 //     break;
 // }
@@ -88,7 +87,7 @@
 
 // for(let i=1;i<=10;i++){
 //     a +=i;
- 
+
 // }
 // console.log(a)
 
@@ -110,12 +109,11 @@
 // console.log(element)
 // }(
 
-// slice na hapmningba mwongda happagi, aduga Push na back ta haptoine aduga 
+// slice na hapmningba mwongda happagi, aduga Push na back ta haptoine aduga
 // let num =[2,3,4,5,6,7,0];
 
 // num.splice(3,0,89,90,32,89);
 // console.log(num)
-
 
 // array check number check
 
@@ -157,14 +155,22 @@
 // const data=employees.find(function(e){
 //     return e.name ==='Moni'
 
-
 // });
 // console.log(data);
 
 //arrrow function add
-const add=(num1,num2)=>num1+num2;
+// const add = (num1, num2) => num1 + num2;
 
-console.log(add(2,9));
+// console.log(add(2, 9));
 
 
+//array pusp pop spice unshift shift
+const numbers=[1,2,3,4,5,6,7,89]
+
+const lastElement=numbers.pop();
+
+console.log(`lastElement :${lastElement}`)
+console.log (`numbers :${numbers}`)
+
+ 
 
