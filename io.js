@@ -256,7 +256,13 @@
 // const designer=Dat.filter(data=>data.role==='Graphic Designer');
 // console.log(designer);
 //map uses
-const num=[1,2,3,45,90];
+// const num=[1,2,3,45,90];
 
-const Rome=num.map(nm=>nm+nm);
-console.log(Rome);
+// const Rome=num.map(nm=>nm+nm);
+// console.log(Rome);
+//uppercase Convert
+const character=[
+    'a','b','c','d','e'
+]
+const upperCase=character.map(char=>char.toUpperCase());
+console.log(upperCase);
