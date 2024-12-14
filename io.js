@@ -248,12 +248,10 @@
 // console.log(evenNumber);
 
 //filtering means searching similar or not
-const employees=[
-    {id:1, name:'Alice', role:'Developer'},
-    {id:2, name:'Bob', role:'Manager'},
-    {id:3, name:'Charlie', role:'Developer'},
+const Dat=[
+{id:1,name:'Sanathoiba',role:'Graphic Designer'},
+{id:2,name:'Sanatomba',role:'Developer'},
+{id:3,name:'Jerun',role:'UI AND UX DESIGNER'},
 ]
-const searching=employees.filter(
-    employee => employee.role === 'Developer'
-)
-console.log(searching)
+const designer=Dat.filter(data=>data.role==='Graphic Designer');
+console.log(designer);
