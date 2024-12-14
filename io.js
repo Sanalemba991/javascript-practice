@@ -177,4 +177,4 @@ const San=[1,2,3,4,5];
 const Ram=[3,4,8,9,0];
 
 const Okay=San.concat(Ram);
-console.log(Okay)
+console.log(Okay);
