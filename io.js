@@ -119,15 +119,15 @@
 
 // array check number check
 
-let number = [5, 4, 3, 2, 1, 3];
+// let number = [5, 4, 3, 2, 1, 3];
 
-const sam = number.indexOf(1);
+// const sam = number.indexOf(1);
 
-if (sam === -1) {
-    console.log("Value doesn't exist");
-} else {
-    console.log("Value exists at index " + sam);
-}
+// if (sam === -1) {
+//     console.log("Value doesn't exist");
+// } else {
+//     console.log("Value exists at index " + sam);
+// }
 
 // Check if the number array includes 3
 // if (number.includes(3)) {
@@ -135,3 +135,28 @@ if (sam === -1) {
 // } else {
 //     console.log("Value doesn't exist in the array");
 // }
+const employees=[
+    {
+        id:1,
+        name:'Sanalemba'
+    },
+    {
+        id:2,
+        name:'Romario'
+    },
+    {
+        id:3,
+        name:'Jayadev'
+    }, {
+        id:4,
+        name:'Moni'
+    },
+]
+
+const data=employees.find(function(e){
+    return e.name=='Romeo'
+    
+    if()
+
+});
+console.log(data);
