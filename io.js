@@ -154,9 +154,8 @@ const employees=[
 ]
 
 const data=employees.find(function(e){
-    return e.name=='Romeo'
-    
-    if()
+    return e.name ==='Moni'
+
 
 });
 console.log(data);
