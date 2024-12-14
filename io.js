@@ -135,27 +135,30 @@
 // } else {
 //     console.log("Value doesn't exist in the array");
 // }
-const employees=[
-    {
-        id:1,
-        name:'Sanalemba'
-    },
-    {
-        id:2,
-        name:'Romario'
-    },
-    {
-        id:3,
-        name:'Jayadev'
-    }, {
-        id:4,
-        name:'Moni'
-    },
-]
+//find method();
+// const employees=[
+//     {
+//         id:1,
+//         name:'Sanalemba'
+//     },
+//     {
+//         id:2,
+//         name:'Romario'
+//     },
+//     {
+//         id:3,
+//         name:'Jayadev'
+//     }, {
+//         id:4,
+//         name:'Moni'
+//     },
+// ]
 
-const data=employees.find(function(e){
-    return e.name ==='Moni'
+// const data=employees.find(function(e){
+//     return e.name ==='Moni'
 
 
-});
-console.log(data);
+// });
+// console.log(data);
+
+
