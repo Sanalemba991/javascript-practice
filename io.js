@@ -102,10 +102,36 @@
 // for(const key in course){
 //     console.log(course[key])
 // }
-let num=[1,2,3,4]
-// for(let i=0;i<=num.length;i++){
-//     console.log(num[i])
-// }
-for(let element of num){
-console.log(element)
+// let num=[1,2,3,4]
+// // for(let i=0;i<=num.length;i++){
+// //     console.log(num[i])
+// // }
+// for(let element of num){
+// console.log(element)
+// }(
+
+// slice na hapmningba mwongda happagi, aduga Push na back ta haptoine aduga 
+// let num =[2,3,4,5,6,7,0];
+
+// num.splice(3,0,89,90,32,89);
+// console.log(num)
+
+
+// array check number check
+
+let number = [5, 4, 3, 2, 1, 3];
+
+const sam = number.indexOf(1);
+
+if (sam === -1) {
+    console.log("Value doesn't exist");
+} else {
+    console.log("Value exists at index " + sam);
 }
+
+// Check if the number array includes 3
+// if (number.includes(3)) {
+//     console.log("Value exists in the array");
+// } else {
+//     console.log("Value doesn't exist in the array");
+// }
