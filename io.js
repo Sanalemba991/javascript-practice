@@ -267,17 +267,17 @@
 // console.log(upperCase);
 
 //toLowercase covert
-const collections = [
-  { id: 1, name: "Sanalemba", role: "Developer" },
-  { id: 2, name: "Sanatomba", role: "Graphic Designer" },
-  {
-    id: 3,
-    name: "Jerun",
-    role: "UI AND UX DESIGNER",
-  },
-];
+// const collections = [
+//   { id: 1, name: "Sanalemba", role: "Developer" },
+//   { id: 2, name: "Sanatomba", role: "Graphic Designer" },
+//   {
+//     id: 3,
+//     name: "Jerun",
+//     role: "UI AND UX DESIGNER",
+//   },
+// ];
 
-const collect=collections.map(collec=>({
-    role:collec.role.toLowerCase()
-}))
-console.log(collect)
+// const collect=collections.map(collec=>({
+//     role:collec.role.toLowerCase()
+// }))
+// console.log(collect)
