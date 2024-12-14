@@ -241,7 +241,6 @@
 // })
 // console.log(`even :${areAllEven}`)
 
-
 //fillter means searching divisible by 2
 // const number=[1,2,3,4,5,6];
 // const evenNumber=number.filter(number =>number%2 ===0);
@@ -261,8 +260,19 @@
 // const Rome=num.map(nm=>nm+nm);
 // console.log(Rome);
 //uppercase Convert
-const character=[
-    'a','b','c','d','e'
-]
-const upperCase=character.map(char=>char.toUpperCase());
-console.log(upperCase);
+// const character=[
+//     'a','b','c','d','e'
+// ]
+// const upperCase=character.map(char=>char.toUpperCase());
+// console.log(upperCase);
+
+//toLowercase covert 
+const employees = [
+  { id: 1, name: "Ram", email: "RoMio@gmail.com" },
+  { id: 2, name: "Rahul", email: "RaHul@gmail.com" },
+  { id: 3, name: "Tomba", email: "TomThinLaba@gmail.com" },
+];
+const emaiK = employees.map((employee) => ({
+  email: employee.email.toLocaleLowerCase(),
+}));
+console.log(emaiK);
