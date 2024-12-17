@@ -1,6 +1,6 @@
 //check vowel exist or not
 const ram = "Sanalemba";
-const vowels = "aeiou"; 
+const vowels = "sana"; 
 
 for (let i = 0; i < ram.length; i++) {
     if (!vowels.includes(ram[i])) { 
@@ -8,4 +8,3 @@ for (let i = 0; i < ram.length; i++) {
     }
 }
 
-console.log(ram); 
