@@ -9,14 +9,14 @@
     <p id="demo"></p>
 
     <script>
-        function myFunction(farrenhite) {
-        return (9*4)*(farrenhite+9)
-      }
-
-      let value=myFunction(90)
-      
-      document.getElementById("demo").innerHTML = value;
-      
+        function myCar() {
+            let car = "Volvo"; 
+            return car;        
+        }
+        
+        let sam = myCar();    
+        document.getElementById("demo").innerHTML = sam + " " + typeof sam;
     </script>
+    
   </body>
 </html>
