@@ -9,26 +9,18 @@
     <p id="demo"></p>
 
     <script>
-       
-            const ram = {
-                name: "Samba",
-                age: 90,
-                lastName: "Romario",
-                fullname: function fullName() {
-                    return this.name + " " + this.lastName;
-                }
-            };
-    
-           
-            let sam = ram.fullname();
-            
-            
-            document.getElementById("demo").innerHTML = sam;
-        
-    
-        
-   
+      const ram = {
+        name: "Samba",
+        age: 90,
+        lastName: "Romario",
+        fullname: function fullName() {
+          return this.name + " " + this.lastName;
+        },
+      };
+
+      let sam = ram.fullname();
+
+      document.getElementById("demo").innerHTML = sam;
     </script>
-    
   </body>
 </html>
