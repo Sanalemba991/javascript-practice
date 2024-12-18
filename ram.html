@@ -1,32 +1,22 @@
-<!-- <!DOCTYPE html> Document
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h2>Javascript Can do good thimgs</h2>
-    <p id="p1"> This is a paragraph</p>
-    <button type="button"
-    onclick="document.getElementById('p1').innerHTML='Clickit'">Click it</button>
-    
-</body>
-</html> -->
-//className happaga array ywda yade[0]
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <script>
+        function Add() {
+          let a = 3;
+          let b = 3;
+          let c = a + b;
+          document.getElementById("p1").innerHTML = c;
+        }
+      </script>
+  
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <h2>JavaScript Can do good things</h2>
-    <p class="ip">You bitch</p>
-
-    <button type="button" onclick="document.getElementsByClassName('ip')[0].innerHTML = 'Hello World';">
-        Click Me
-    </button>
-</body>
+  </head>
+  <body>
+    <p id="p1">Add Me</p>
+    <!-- Corrected the onclick attribute to call the function properly -->
+    <button type="button" onclick="Add()">Click to Add</button>
+  </body>
 </html>
