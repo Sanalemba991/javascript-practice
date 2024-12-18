@@ -9,11 +9,11 @@
     <p id="demo"></p>
 
     <script>
-      const person={
-        name:"Sanalemba",
-        occupation:"Developer"
+      let x = myFunction(8, 9);
+      document.getElementById("demo").innerHTML = x;
+      function myFunction(a, b) {
+        return a * b;
       }
-      document.getElementById("demo").innerHTML=person.name +person.occupation
     </script>
   </body>
 </html>
